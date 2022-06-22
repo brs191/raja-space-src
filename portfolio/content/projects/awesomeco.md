@@ -2,7 +2,9 @@
 title: "Awesomeco"
 draft: false
 ---
-![alt]( //via.placeholder.com/640x150 )
+![alt]( /img/boat.jpg )
+
+{{< youtube z-_t9QK9o3c >}}
 
 This has to be some awesome description.
 

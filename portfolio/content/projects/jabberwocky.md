@@ -2,7 +2,7 @@
 title: "Jabberwocky"
 draft: false
 ---
-![alt]( //via.placeholder.com/640x150 )
+![alt]( /img/boat.jpg )
 
 This is Jabberwocky Description...
 
