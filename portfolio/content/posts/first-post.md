@@ -3,6 +3,8 @@ title: "First Post"
 date: 2022-06-22T20:32:20+09:00
 draft: false
 author: Raja Shekar
+year: "2022"
+month: "2022/06"
 categories:
     - Personal
     - Thoughts
