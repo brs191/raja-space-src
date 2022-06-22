@@ -1,12 +1,12 @@
 ---
 title: "Jabberwocky"
 draft: false
+image: /img/boat.jpg
+alt_text: "Jabberwocky screenshot"
+summary: "Summary of the Jabberwocky project"
+tech_used:
+- JavaScript
+- CSS
+- HTML
 ---
-![alt]( /img/boat.jpg )
-
-This is Jabberwocky Description...
-
-### Tech used
-* item
-* item
-* item
+Description of the Jabberwocky project...

@@ -1,12 +1,12 @@
 ---
 title: "Awesomeco"
 draft: false
+image: /img/boat.jpg
+alt_text: "Awesomeco screenshot"
+summary: "Summary of the Awesomeco project"
+tech_used:
+- JavaScript
+- CSS
+- HTML
 ---
-![alt]( /img/boat.jpg )
-
-This has to be some awesome description.
-
-### Tech used
-* item
-* item
-* item
+Description of the Awesomeco project...
