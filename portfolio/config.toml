@@ -6,3 +6,6 @@ theme = 'basic'
 [params]
 author = "Raja Shekar Bollam"
 description = "This portfolio is created from 'Build Websites with Hugo' book"
+github_url = "https://api.github.com/users"
+github_user = "brs191"
+
