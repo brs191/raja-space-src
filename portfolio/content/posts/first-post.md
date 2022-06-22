@@ -1,8 +1,14 @@
 ---
 title: "First Post"
-date: 2022-06-22T20:19:38+09:00
+date: 2022-06-22T20:32:20+09:00
 draft: false
 author: Raja Shekar
+categories:
+    - Personal
+    - Thoughts
+tags:
+    - software
+    - html
 ---
 
 If I win, I will be happy. If I don’t, I won’t. It’s an if, then cause and effect, 
