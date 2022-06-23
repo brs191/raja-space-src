@@ -13,9 +13,8 @@ footer {
     background-color: rgb(42, 176, 32);
     color: #fff;
     text-align: center;
-    position: fixed;
     bottom: 30px;
-    width: 80%;
+    width: 100%;
 }
 
 nav {
