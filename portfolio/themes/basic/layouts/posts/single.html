@@ -21,5 +21,11 @@
     <section class= "body" >
         {{ .Content }}
     </section>
+
+    <section class= "comments" >
+        <h3>Comments</h3>
+        {{ template "_internal/disqus.html" . }}
+    </section>
+
 </article>
 {{ end }}

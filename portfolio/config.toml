@@ -2,6 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "Raja's Portfolio"
 theme = 'basic'
+disqusShortname = "raja-space"
 Paginate = 3
 
 [params]
