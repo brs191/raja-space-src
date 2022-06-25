@@ -16,6 +16,6 @@
         {{.Site.Params.description}}
     {{- end -}}
     ">
-    {{ $css := resources.Get "css/style.css" | minify | fingerprint }}
+    {{ $css := resources.Get "css/style.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
