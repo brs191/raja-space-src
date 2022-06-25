@@ -11,6 +11,8 @@ categories:
 tags:
     - software
     - html
+keywords:
+- jabberwocky
 ---
 
 Matthew McConaughey has always been an actor that I have respected and looked up to over the years. He is a very unique individual with an incredibly unique view of the world we live in today. As Joe Rogan said, he has some form of whiskey sipping philosophy that captivates your attention and always leaves you with a one-liner you will never forget. He gave a commencement speech at the University of Houston where his father played college football and he revealed 13 truths that he has learned throughout his life that he thought would be a benefit for the graduating class of 2015. 
