@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raja&#39;s Portfolio</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Raja&#39;s Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2022 21:19:02 +0900</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search</title>
+      <link>http://example.org/search/</link>
+      <pubDate>Sat, 25 Jun 2022 10:12:02 +0900</pubDate>
+      
+      <guid>http://example.org/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forth Post</title>
+      <link>http://example.org/posts/2022/06/forth-post/</link>
+      <pubDate>Wed, 22 Jun 2022 21:19:02 +0900</pubDate>
+      
+      <guid>http://example.org/posts/2022/06/forth-post/</guid>
+      <description>Jana-gana-mana-adhinayaka, jaya he
+Bharata-bhagya-vidhata.
+Punjab-Sindh-Gujarat-Maratha
+Dravida-Utkala-Banga
+Vindhya-Himachala-Yamuna-Ganga
+Uchchala-Jaladhi-taranga.
+Tava shubha name jage,
+Tava shubha asisa mage,
+Gahe tava jaya gatha,
+Jana-gana-mangala-dayaka jaya he
+Bharata-bhagya-vidhata.
+Jaya he, jaya he, jaya he, Jaya jaya jaya, jaya he!</description>
+    </item>
+    
+    <item>
+      <title>Third Post</title>
+      <link>http://example.org/posts/2022/06/third-post/</link>
+      <pubDate>Wed, 22 Jun 2022 20:57:03 +0900</pubDate>
+      
+      <guid>http://example.org/posts/2022/06/third-post/</guid>
+      <description>&lt;p&gt;I found that nothing in life is worthwhile unless you take risks. Nothing. Nelson Mandela said, “There is no passion to be found, playing small and settling for a life that’s less than the one you’re capable of living.”&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>http://example.org/posts/2022/06/second-post/</link>
+      <pubDate>Wed, 22 Jun 2022 20:52:56 +0900</pubDate>
+      
+      <guid>http://example.org/posts/2022/06/second-post/</guid>
+      <description>&lt;p&gt;Matthew McConaughey has always been an actor that I have respected and looked up to over the years. He is a very unique individual with an incredibly unique view of the world we live in today. As Joe Rogan said, he has some form of whiskey sipping philosophy that captivates your attention and always leaves you with a one-liner you will never forget. He gave a commencement speech at the University of Houston where his father played college football and he revealed 13 truths that he has learned throughout his life that he thought would be a benefit for the graduating class of 2015.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>http://example.org/posts/2022/06/first-post/</link>
+      <pubDate>Wed, 22 Jun 2022 20:32:20 +0900</pubDate>
+      
+      <guid>http://example.org/posts/2022/06/first-post/</guid>
+      <description>&lt;p&gt;If I win, I will be happy. If I don’t, I won’t. It’s an if, then cause and effect,
+quid pro quo standard that we cannot sustain, because we immediately raise it
+every time we attain it. See, happiness demands a certain outcome.
+It is result reliant. And I say if happiness is what you’re after,
+then you’re going to be let down frequently and you’re going to be
+unhappy much of your time.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Open Software Software</title>
+      <link>http://example.org/opensource/</link>
+      <pubDate>Wed, 22 Jun 2022 19:25:28 +0900</pubDate>
+      
+      <guid>http://example.org/opensource/</guid>
+      <description>My Open Source Software on GitHub:</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://example.org/resume/</link>
+      <pubDate>Tue, 21 Jun 2022 15:11:36 +0900</pubDate>
+      
+      <guid>http://example.org/resume/</guid>
+      <description>This is Resume page.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://example.org/contact/</link>
+      <pubDate>Tue, 21 Jun 2022 15:10:56 +0900</pubDate>
+      
+      <guid>http://example.org/contact/</guid>
+      <description>This is contact page.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Tue, 21 Jun 2022 15:01:29 +0900</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>This is my About page.</description>
+    </item>
+    
+    <item>
+      <title>My Vacation</title>
+      <link>http://example.org/posts/2022/06/my-vacation/</link>
+      <pubDate>Thu, 02 Jun 2022 12:45:51 -0600</pubDate>
+      
+      <guid>http://example.org/posts/2022/06/my-vacation/</guid>
+      <description>Here are pictures from my recent trip to South Dakota.
+Mount Rushmore The Badlands Bison at Custer National Park </description>
+    </item>
+    
+    <item>
+      <title>Awesomeco</title>
+      <link>http://example.org/projects/awesomeco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/awesomeco/</guid>
+      <description>Summary of the Awesomeco project</description>
+    </item>
+    
+    <item>
+      <title>Jabberwocky</title>
+      <link>http://example.org/projects/jabberwocky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/jabberwocky/</guid>
+      <description>Summary of the Jabberwocky project</description>
+    </item>
+    
+    <item>
+      <title>Linkitivity</title>
+      <link>http://example.org/projects/linkitivity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/linkitivity/</guid>
+      <description>Summary of the Linkitivity project</description>
+    </item>
+    
+  </channel>
+</rss>
