@@ -1,0 +1,10 @@
+{
+  "name" : "portfolio" ,
+  "version" : "1.0.0" ,
+  "description" : "My portfolio" ,
+  "private" : true ,
+  "scripts" : {
+    "build" : "hugo --cleanDestinationDir",
+    "hugo-server" : "hugo server --disableFastRender"
+  }
+}
