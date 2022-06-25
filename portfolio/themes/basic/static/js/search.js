@@ -2,6 +2,7 @@
 window.SearchApp = {
     searchField: document.getElementById( "searchField" ),
     searchButton: document.getElementById( "searchButton" ),
+    allwords: document.getElementById( "allwords" ),
     output: document.getElementById( "output" ),
     searchData: {},
     searchIndex: {}
@@ -12,6 +13,8 @@ axios
     .then(response => {
         SearchApp.searchData = response.data;
         SearchApp.searchIndex = lunr( function () {
+            this .pipeline.remove(lunr.stemmer);
+            this .searchPipeline.remove(lunr.stemmer);
             this .ref( 'href' );this .field( 'title' );
             this .field( 'body' );
             response.data.results.forEach(e => {
@@ -23,6 +26,18 @@ axios
 SearchApp.searchButton.addEventListener( 'click' , search);
 function search() {
     let searchText = SearchApp.searchField.value;
+    searchText = searchText
+                    .split(" ")
+                    .map(word=>{return word + "*"})
+                    .join(" ");
+
+    if (SearchApp.allwords.checked) {
+        searchText = searchText
+            .split( " " )
+            .map( word => { return "+" + word })
+            .join( " " );
+    }
+
     let resultList = SearchApp.searchIndex.search(searchText);
     let list = [];
     let results = resultList.map(entry => {
