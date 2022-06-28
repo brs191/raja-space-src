@@ -80,5 +80,10 @@ figure img {
     height: auto;
 }
 
+img[alt=home] {
+    width: 100%;
+    margin: 0 auto;
+}
+
 @import 'books';
 @import 'tech';
