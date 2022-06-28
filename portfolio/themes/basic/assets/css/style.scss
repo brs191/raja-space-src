@@ -1,14 +1,30 @@
+body {
+    background-image: url("/img/home/wood2.jpg");
+}
+
 .container {
     margin: 0 auto;
     width: 80%;
-    background-color: #dddddd;
-    }
+    background-color: ivory;
+}
 
-nav, footer {
+nav {
     background-color: rgb(40, 176, 15);
     color: #fff;
     text-align: center;
-    }
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: rgb(40, 176, 15);
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    padding: 10px;
+}
+
 @import 'navbar';
 
 @media only screen and (min-width: 768px) {

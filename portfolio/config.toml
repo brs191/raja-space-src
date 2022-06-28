@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = "Raja Shekar Bollam - Life is BeautiFULL"
+title = "Life is BeautiFULL"
 theme = 'basic'
 disqusShortname = "raja-space"
 Paginate = 3
