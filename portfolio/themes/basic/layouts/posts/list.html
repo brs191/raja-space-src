@@ -1,10 +1,12 @@
 {{ define "main" }}
-    <h2>My Travelogue & Motivations</h2>
+
+    <div class="travel">
+    <h2 >My Travelogue & Motivations</h2>
 
     {{ range .Paginator.Pages }}
         {{ partial "post_summary.html" . }}
     {{ end }}
 
     {{ template "_internal/pagination.html" . }}
-
+    </div>
 {{ end }}

@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = "Life is BeautiFULL"
 theme = 'basic'
 disqusShortname = "raja-space"
-Paginate = 3
+Paginate = 5
 
 [params]
 author = "Raja Shekar Bollam"
