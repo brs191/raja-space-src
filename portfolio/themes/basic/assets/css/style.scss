@@ -16,12 +16,6 @@ nav, footer {
     .project-container .project { flex: 1; }
 }
 
-@media only screen and (min-width: 768px) {
-    .books-container {display: flex;}
-    .books-container .books-list { width: 20%; font-size: 12px}
-    .books-container .book { flex: 1; }
-}
-
 .oss {
     display: flex;
     flex-wrap: wrap;
@@ -87,3 +81,4 @@ figure img {
 }
 
 @import 'books';
+@import 'tech';

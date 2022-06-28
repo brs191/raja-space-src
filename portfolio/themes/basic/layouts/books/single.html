@@ -14,7 +14,7 @@
         <p>Reading time: {{ math.Round (div (countwords .Content) 200.0) }} minutes.
         <span class= "tags" >
                 {{ range .Params.tags }}
-                <a class= "tag" href= "/tags/{{ . | urlize }}" >{{ . }}</a>
+                <span><a class= "tag" href= "/tags/{{ . | urlize }}" >{{ . }}</a></span>
                 {{ end }}
             </span>
         </p>

@@ -1,0 +1,25 @@
+{{define "main"}}
+<div class="tech-container">
+    <section class="tech-list">
+        <h2>Tech List</h2>
+        {{ range (where .Site.RegularPages "Type" "in" "tech") }}
+             <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+        {{end}}
+    </section>
+
+    <section class="tech">
+
+        <h2>{{ .Title }}
+            <span class= "tags" >
+                {{ range .Params.tags }}
+                <span><a class= "tag" href= "/tags/{{ . | urlize }}" >{{ . }}</a></span>
+                {{ end }}
+            </span>
+        </h2>
+
+        <p>{{ .Content }}</p>
+
+    </section>
+
+</div>
+{{end}}
