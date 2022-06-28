@@ -1,10 +1,34 @@
 {{ define "main" }}
 <div class= "books-container" >
     <section class="books-list">
-        <h2>Books List</h2>
+        <h3>Life</h3>
         {{ range (where .Site.RegularPages "Type" "in" "books") }}
+            {{- if hasPrefix .RelPermalink "/books/life/" -}}
+                <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{end}}
+        {{end}}
+
+        <h3>Money</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "books") }}
+        {{- if hasPrefix .RelPermalink "/books/money/" -}}
         <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
         {{end}}
+        {{end}}
+
+        <h3>Health</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "books") }}
+        {{- if hasPrefix .RelPermalink "/books/health/" -}}
+        <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+        {{end}}
+        {{end}}
+
+        <h3>Fiction</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "books") }}
+        {{- if hasPrefix .RelPermalink "/books/fiction/" -}}
+        <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+        {{end}}
+        {{end}}
+
     </section>
 
     <section class="book">

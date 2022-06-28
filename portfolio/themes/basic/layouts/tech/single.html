@@ -1,10 +1,48 @@
 {{define "main"}}
 <div class="tech-container">
     <section class="tech-list">
-        <h2>Tech List</h2>
+        <h3>Microservices</h3>
         {{ range (where .Site.RegularPages "Type" "in" "tech") }}
-             <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{- if hasPrefix .RelPermalink "/tech/microservices/" -}}
+                <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{end}}
         {{end}}
+
+        <h3>Kubernetes</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "tech") }}
+            {{- if hasPrefix .RelPermalink "/tech/kubernetes/" -}}
+              <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{end}}
+        {{end}}
+
+        <h3>Golang</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "tech") }}
+        {{- if hasPrefix .RelPermalink "/tech/golang/" -}}
+                <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{ end }}
+        {{ end }}
+
+        <h3>Vertx</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "tech") }}
+        {{- if hasPrefix .RelPermalink "/tech/vertx/" -}}
+            <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{ end }}
+        {{ end }}
+
+        <h3>RCS</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "tech") }}
+            {{- if hasPrefix .RelPermalink "/tech/rcs/" -}}
+                <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{ end }}
+        {{ end }}
+
+        <h3>IMS</h3>
+        {{ range (where .Site.RegularPages "Type" "in" "tech") }}
+            {{- if hasPrefix .RelPermalink "/tech/ims/" -}}
+                <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+            {{ end }}
+        {{ end }}
+
     </section>
 
     <section class="tech">
