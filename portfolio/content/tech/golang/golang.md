@@ -1,5 +1,5 @@
 ---
-title: "Golang - Basics"
+title: "Introduction"
 draft: false
 summary: "Summary of the Golang"
 categories: 

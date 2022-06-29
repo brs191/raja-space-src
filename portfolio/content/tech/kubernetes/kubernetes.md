@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes - Basics"
+title: "Introduction"
 draft: false
 summary: "Summary of the Kubernetes"
 categories: 

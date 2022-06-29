@@ -1,5 +1,5 @@
 ---
-title: "RCS - Basics"
+title: "Introduction"
 draft: false
 summary: "Summary of the Rcs"
 categories: 

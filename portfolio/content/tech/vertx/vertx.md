@@ -1,5 +1,5 @@
 ---
-title: "Vertx - Basics"
+title: "Introduction"
 draft: false
 summary: "Summary of the Vertx"
 categories: 
